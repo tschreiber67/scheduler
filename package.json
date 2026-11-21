@@ -1,0 +1,15 @@
+{
+  "name": "resource-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Priority job queue scheduled onto identical machines with a Gantt timeline (S1 baseline)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/cli.js demo",
+    "test": "node --test"
+  }
+}
